@@ -29,7 +29,7 @@ return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
             WebRequest webRequest
 
     ){
-        ErrorDetails errorDetails=new ErrorDetails(e.getMessage(),new Date(),webRequest.getDescription(true));
+        ErrorDetails errorDetails=new ErrorDetails(e.getLocalizedMessage(),new Date(),webRequest.getDescription(true));
 
         return new ResponseEntity<>(errorDetails, HttpStatus.BAD_REQUEST);
     }

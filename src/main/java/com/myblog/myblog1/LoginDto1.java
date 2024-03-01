@@ -1,6 +1,6 @@
 package com.myblog.myblog1;
 
-public class LoginDto {
+public class LoginDto1 {
 
     private String userName;
 

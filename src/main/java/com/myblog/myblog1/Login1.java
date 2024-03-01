@@ -1,11 +1,11 @@
 package com.myblog.myblog1;
 
-public class Login {
+public class Login1 {
 
     private String userName;
     private String password;
 
-    public Login(String userName, String password) {
+    public Login1(String userName, String password) {
         this.userName = userName;
         this.password = password;
     }
